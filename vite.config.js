@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "JannickDev",
     project: "javascript-react"
-  })],
+  }),
+  ],
 
   build: {
     sourcemap: true
